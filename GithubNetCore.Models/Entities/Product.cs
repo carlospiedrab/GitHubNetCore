@@ -23,5 +23,7 @@ namespace GithubNetCore.Models.Entities
         [ForeignKey("BrandId")]
         public Brand Brand { get; set; }
 
+        public double Price { get; set; }
+
     }
 }
